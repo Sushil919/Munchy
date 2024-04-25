@@ -1,0 +1,23 @@
+{
+  "name": "munchy",
+  "version": "1.0.0",
+  "description": "This is online food delivery website",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sushil919/Munchy.git"
+  },
+  "keywords": [],
+  "author": "Sushil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sushil919/Munchy/issues"
+  },
+  "homepage": "https://github.com/Sushil919/Munchy#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
