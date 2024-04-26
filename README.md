@@ -1,4 +1,4 @@
-# Munchy
+# Munchy-Crunchy
 /** 
  * Header
  * - Logo
