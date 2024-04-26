@@ -14,8 +14,7 @@ const Body = () => {
                 );
                 setListOfRestaurants(filteredData);
                 console.log(resList);
-            }}
-            >
+            }}>
                 Top Rated Restaurants
             </button>
             </div>
