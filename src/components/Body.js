@@ -1,10 +1,11 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState } from "react";
 import resList from "../utils/mockData";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
     const [listOfRestaurants,setListOfRestaurants] = useState(resList);
-    return (
+    return listOfRestaurants.length === 0 ? (<Shimmer /> ) : (
        <div className="body">
         <div className="filter">
             <button className="filter-btn"
